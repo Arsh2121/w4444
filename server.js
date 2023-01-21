@@ -20,6 +20,7 @@ const app = express();
 const MoviesDB = require("./modules/moviesDB.js");
 const db = new MoviesDB();
 
+
 require("dotenv").config();
 
 app.use(cors());
